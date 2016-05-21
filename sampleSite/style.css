@@ -1,0 +1,186 @@
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif, Arial, san-serif;
+	font-size: 14px; 
+	color: #ffffff;
+	background: url('images/CS-green.jpg') no-repeat center fixed #000000;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+	font-size: 50px;
+	color: ffffff;
+}
+
+a:link {
+	font-family: Gabriola, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #62ea38;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #62ea38;
+}
+
+a:hover{
+	color: #cb090d;
+	/*font-size: 30px;*/
+}
+
+a:active{
+	color: #ffffff;
+}
+
+#wrapper_h {
+	background: url('images/CS.jpg') no-repeat center fixed;
+	height: auto;
+	padding: 0px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: solid;
+	border-right: solid;
+	border-color: #62ea38;
+	
+}
+
+#wrapper_a {
+	background: url('images/seattle.jpg') no-repeat center fixed;
+	height: auto;
+	padding: 0px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: solid;
+	border-right: solid;
+	border-color: #62ea38;
+}
+
+#wrapper_c {
+	background: url('images/CS-blue.jpg') no-repeat center fixed;
+	height: auto;
+	padding: 0px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: solid;
+	border-right: solid;
+	border-color: #62ea38;
+}
+
+#header {
+	background: url('images/spark_banner.png') no-repeat center  #ffffff; 
+	/*background:  background: linear-gradient(#5c6fae, black); /* Standard syntax #ffffff;/*url('images/content.jpg') no-repeat  /*#007350*/
+	/*background: -webkit-linear-gradient(#5c6fae, black); /* For Safari 5.1 to 6.0 */
+	/*background: -o-linear-gradient(#5c6fae, black); /* For Opera 11.1 to 12.0 */
+	/*background: -moz-linear-gradient(#5c6fae, black); /* For Firefox 3.6 to 15 */
+	width: 100%;/*625px;*/
+	height: 125px;
+	text-align: center;
+	line-height:50px;
+	
+	
+}
+
+#nav_wrapper {
+	width: 99%;
+	height: 40px;
+	background: url('images/star_menu.png') no-repeat center #000000;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border: 4px solid;
+	border-color: #62ea38;/*#054a8b;*/
+	border-radius: 0 0 75px 75px;
+	box-shadow: 7px 7px 40px #000000;
+}
+
+#nav {
+	background: url('images/star_menu.png') no-repeat center #000000;/*#39a019;/*url('images/bar.jpg') no-repeat #FFB200;*/ 
+	width: 900px;/*132px;*/
+	text-align: center;
+	height: 40px;
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav_select{
+	background: url('images/fade_red.png') no-repeat center;
+	width: 300px;
+	height: 40px;
+	font-size: 37px;
+	color: #ffffff;
+	float: left;
+	margin-left: auto;
+	margin-top: auto;
+	line-height: 45px;
+	border-radius: 75px 75px 75px 75px;
+	/*Gabriola*/
+}
+
+#nav_no{
+	background: url('images/fade_blue.png') no-repeat center;
+	width: 300px;
+	height: 40px;
+	font-size: 37px;
+	color: #ffffff;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 45px;
+	border-radius: 75px 75px 75px 75px;
+	/*Gabriola*/
+}
+
+#content_i {
+	
+	/*background: url('images/mountains_moon.jpg') no-repeat center;*/
+	width: auto; /*518px;*/
+	height: 60%;
+	margin-top: 5%;
+	margin-bottom: 20%;
+}
+
+#home_c {
+	background: #CCCCCC;
+	color: 000000;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif, Arial, san-serif;
+	font-size: 20px;
+	width: 700px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	box-shadow: 5px 5px 30px #000000 inset;
+	border-radius: 75px 75px 75px 75px;
+	
+}
+  
+#home_c  a {
+	color: blue;
+}
+  
+#footer {
+	background: url('images/footer_blue.png') no-repeat  #000000;
+	width: 99.5%;/*800px;*/
+	height: 40px;
+	border: solid;
+	border-color:  #62ea38;
+	border-radius: 75px 75px 0 0;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	box-shadow: -7px -7px 40px #000000;
+	
+}
+
+.footertext {
+	text-align: center;
+	font-size: 14px;
+}
