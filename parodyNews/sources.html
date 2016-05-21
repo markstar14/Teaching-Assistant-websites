@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+<meta charset="UTF-8">
+<title>Wandering Worlds</title>
+<link rel="stylesheet" type="text/CSS" href="style.css" />
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body>
+	
+	
+		<div id="header">
+        	<div id="head_wrapper">
+				<div id="icon">
+				</div>
+				<div id="title">
+					<h1> Wandering Worlds</h1>
+					<h2> News From Alternate Universes!</h2>
+				</div>
+				<div id="hole">
+				</div>
+			</div>
+    	</div>
+        <div id="nav_wrapper">
+            <div id="nav">
+				<div id="nav_fill"></div>
+                <div id="nav_link">
+                    <a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home','','images/link_portal.png',1)"><img src="images/home_d.png" alt="Home" width="150" height="50" id="home"></a>
+                </div>
+				<div id="nav_fill"></div>
+                <div id="nav_link">
+                	<a href="archive.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('archive','','images/link_portal.png',1)"><img src="images/archive_d.png" alt="Archive" width="150" height="50" id="archive"></a> 
+                </div>
+				<div id="nav_fill"></div>
+                <div id="nav_link">
+                    <a href="submit.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('submit','','images/link_portal.png',1)"><img src="images/submit_d.png" alt="Submit" width="150" height="50" id="submit"></a> 
+                </div>
+				<div id="nav_fill"></div>
+                <div id="nav_link">
+                    <a href="sources.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sources','','images/hat_girl.png',1)"><img src="images/on_source.png" alt="Sources" width="150" height="50" id="sources"></a> 
+                </div>
+				<div id="nav_fill"></div>
+            </div>
+        </div>
+		<div id="wrapper">
+        <div id="content">
+		<div id="source_remarks">
+		<h3> "Sources" </h3>
+		
+		
+		
+		<img src="images/citations.png" alt="Citations needed!" >
+		
+		<br><br>
+		
+		
+		
+		import WittyRemarks <br>
+		
+			  wit = "This news site is maintained by Mark Starczewski.<br><br>
+		
+					Most ideas for the articles are from Randall Munroe's xkcd comics and his "What If?" articles. 
+					<br>The main inspiration is <a href="http://what-if.xkcd.com/120/">this</a> article that he wrote. <br>
+					A few other inspirations for the articles on this site are from these other two "What If" articles:<br><a href="http://what-if.xkcd.com/103/">Vanishing Water</a><br><a href="http://what-if.xkcd.com/53/">Drain the Oceans</a><br><a href="http://what-if.xkcd.com/92/">One Second Day</a><br>
+					<br>I also use a few of his illustrations on this website<br><br>
+		
+					Any ideas not borrowed from Mr. Munroe are made up by me.<br><br>
+		
+					That is to say, the good ones are his, 
+					and the not so good ones were things I thought up in five minutes in the middle of the night in an attempt to be funny. <br><br>
+			
+					If you have the time, read through the xkcd comics, they are well written, and are very funny,
+					especially for anyone with a computer science, math, engineering, or physics background.<br><br>
+					
+					
+		
+					Thanks for stopping by Wandering Worlds!"<br><br>
+            ________________________________________________________________________<br><br>
+			  print wit	
+			 <br>
+			
+			  
+			  
+			  
+			  
+		ImportError: cannot import name WittyRemarks<br><br><br>
+		
+		
+		.....sigh...
+		<br><br>
+		</div>	
+        </div>
+        
+	</div>
+	<div id="footer">
+        	<p> <a href="index.html" target="_self">Home</a> | <a href="archive.html" target="_self">Archive</a> | <a href="submit.html" target="_self">Submit</a> | <a href="sources.html" target="_self">Sources</a> </p>
+        </div>
+</body>
+</html>
